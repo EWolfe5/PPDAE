@@ -202,7 +202,7 @@ class Dev_Forward_AE(nn.Module):
 
 class Conv_Forward_AE(nn.Module):
 
-    def __init__(self, img_dim=28, dropout=.2, in_ch=1, phy_dim=8,
+    def __init__(self, img_dim=187, dropout=.2, in_ch=1, phy_dim=8,
         stride=2, kernel_size=4, numb_conv=5, numb_lin=5, a_func=nn.ReLU()):
         """
         Parameters
